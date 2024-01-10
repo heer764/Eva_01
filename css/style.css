@@ -1,8 +1,22 @@
-.nav-link .nav-item{
-    border-color: aqua;
+.nav-link{
+    color: rgb(208, 209, 203);
+    font-weight: bolder;
 }
 
 .imagenfull{
     width: 100%;
     height: 60%;
+}
+
+.color_nav{
+    background-color: rgb(241, 241, 241);
+}
+
+.fondo_degradado{
+    background: linear-gradient(to right, #dcdcdb, #3f7373);
+}
+
+.imgiso{
+    padding-top: 7%;
+    padding-left: 5%;
 }
