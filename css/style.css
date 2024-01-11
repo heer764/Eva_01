@@ -1,5 +1,5 @@
 .nav-link{
-    color: rgb(208, 209, 203);
+    color: rgb(243, 243, 243);
     font-weight: bolder;
 }
 
@@ -8,8 +8,8 @@
     height: 60%;
 }
 
-.color_nav{
-    background-color: rgb(241, 241, 241);
+.navbar-brand, nav-item{
+    background-color: rgb(255, 255, 255);
 }
 
 .fondo_degradado{
@@ -19,4 +19,33 @@
 .imgiso{
     padding-top: 7%;
     padding-left: 5%;
+}
+
+.navbar{
+    border-bottom: px solid rgb(143, 143, 143);
+    background-color: #fafafaf6;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+.tamanoimgf{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.con_img{
+    width: 100vw;
+    height: 80vh;
+    overflow: hidden;
+}
+.textoimg{
+    position:fixed;
+    top: 30%;
+    left: 20%;
+    transform: translate(-20%, -30%);
+    color: aliceblue;
+    font-size: large;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
