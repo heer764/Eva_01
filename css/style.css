@@ -12,10 +12,6 @@
     background-color: rgb(255, 255, 255);
 }
 
-.fondo_degradado{
-    background: linear-gradient(to right, #dcdcdb, #3f7373);
-}
-
 .imgiso{
     padding-top: 7%;
     padding-left: 5%;
@@ -48,15 +44,28 @@
     top: 40%;
     left: 5%;
     color: rgb(255, 255, 255);
-    font-size: 70px;
+    font-size: 40px;
     font-weight: bolder;
+    font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-text-stroke: 1px #022326;
 }
 
 /* Footer estilizado */
 footer {
     background-color: #1b3248;
-    color: #ecf0f1;
-    padding: 5px 1.5;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    min-height: 50px;
+    color: #ffffff;
+    left: 0;
   }
 
+  /*ubicación de elementos del footer"
+  .col-md-6{
+    text-align: right;
+  }*/
+
+
+ 
