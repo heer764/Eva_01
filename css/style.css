@@ -73,3 +73,28 @@ footer {
     color: #1b3248;
 }
  
+
+.nosotros-container {
+    display: flex;
+    align-items: center;
+    
+    margin-top: 20px; /* Ajusta según sea necesario */
+    margin-bottom: 20px; /* Ajusta según sea necesario */
+}
+
+.nosotros-carousel {
+    width: 50%; /* Ajusta el ancho del carrusel según sea necesario */
+}
+
+.nosotros-text {
+    width: 45%; /* Ajusta el ancho del texto según sea necesario */
+}
+.texto-container {
+    background-color: #592b02; /* Color de fondo café */
+    color: #ffffff; /* Color del texto blanco */
+    padding: 16px; /* Espaciado interno del contenedor */
+    border-radius: 4px; /* Bordes redondeados para el contenedor */
+}
+.nosotros-text p {
+    text-align: center;
+}
