@@ -3,20 +3,6 @@
     font-weight: bolder;
 }
 
-.imagenfull{
-    width: 100%;
-    height: 60%;
-}
-
-.navbar-brand, nav-item{
-    background-color: rgb(255, 255, 255);
-}
-
-.imgiso{
-    padding-top: 7%;
-    padding-left: 5%;
-}
-
 .navbar{
     border-bottom: 2px solid rgb(196, 196, 196);
     background-color: #ffffff;
@@ -52,15 +38,7 @@
 }
 
 /* Footer estilizado */
-footer {
-    background-color: #1b3248;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    min-height: 50px;
-    color: #ffffff;
-    left: 0;
-  }
+
 
 .pa_reg{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -96,5 +74,42 @@ footer {
     border-radius: 4px; /* Bordes redondeados para el contenedor */
 }
 .nosotros-text p {
-    text-align: center;
+    text-align: left;
 }
+
+.card-margen-inferior {
+    margin-bottom: 20px;
+  }
+
+
+
+  .body{
+    margin:0;
+    background-color: #ffffff;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+  }
+
+  .footer{
+    background-color: #1b3248;
+    padding: 0.8em 0;
+    
+    text-align: right;
+    margin-top: auto;
+    min-height: 20px;
+    color: #ffffff;
+    width: 100%;
+    position: absolute;
+    
+  }
+  footer2 {
+    background-color: #1b3248;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    min-height: 50px;
+    color: #ffffff;
+    left: 0;
+    margin-top: 20px;
+  }
