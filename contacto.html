@@ -19,9 +19,9 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-                <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+                <li class="nav-item"><a class="nav-link" href="ingresar.html">Ingresar</a></li>
                 <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
-                <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">
                       <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
@@ -33,86 +33,37 @@
         </div>
     </nav>
 
-<!--Formulario para registrar usuario-->
-<div class="container mt-4">
-    <h2 class="titulo">Registrar usuario</h2>
+<!--Formulario para contactar-->
+<div class="container mt-3 mx-auto">
+    <h2 class="titulo col-md-6 mx-auto">Cont&aacute;ctanos</h2>
     <form>
-        <div class="form-row">
-            <div class="form-group col-md-6">
-                <label for="exampleInputName">Nombre</label>
-                <input type="text" class="form-control" id="exampleInputName1">
-            </div>
-            <div class="form-group col-md-6">
-                <label for="exampleInputLastName">Apellido</label>
-                <input type="text" class="form-control" id="exampleInputLastName1">
-            </div>     
+        <div class="form-group col-md-6 mx-auto">
+            <label for="inputNombre">Nombre</label>
+            <input type="text" class="form-control" id="inputNombre1">
         </div>
-        <div class="form-row">
-            <div class="form-group col-md-8">
-                <label for="exampleInputRut">Rut</label>
-                <input type="number" class="form-control" id="exampleInputRut1">
-            </div>
-            <div class="form-group col-md-4">
-                <label for="exampleInputDv">D&iacute;gito verificador</label>
-                <input type="text" class="form-control" id="exampleInputDv1">
-            </div>     
+        <div class="form-group col-md-6 mx-auto">
+            <label for="inputCorreo">Correo electr&oacute;nico</label>
+            <input type="email" class="form-control" id="inputCorreo1">
         </div>
-        
-        <div class="form-row">
-            <div class="form-group col-md-6">
-                <label for="inputDireccion">Direcci&oacute;n</label>
-                <input type="text" class="form-control" id="inputDireccion1">
-            </div>
-            <div class="form-group col-md-4">
-                <label for="exampleInputCiudad">Ciudad</label>
-                <input type="text" class="form-control" id="exampleInputCiudad1">
-            </div>
-            <div class="form-group col-md-2">
-                <label for="InputRegion">Regi&oacute;n</label>
-                <select id="inputRegion" class="form-control">
-                    <option selected>XV.Arica y Parinacota</option>
-                    <option selected>I.Tarapac&aacute;</option>
-                    <option selected>II.Antofagasta</option>
-                    <option selected>III.Atacama</option>
-                    <option selected>IV.Coquimbo</option>
-                    <option selected>V.Valpara&iacute;so</option>
-                    <option selected>VI.Bernardo Ohiggin's</option>
-                    <option selected>VII.Maule</option>
-                    <option selected>VIII.B&iacute;o-B&iacute;o</option>
-                    <option selected>IX.Araucan&iacute;a</option>
-                    <option selected>XIV.De los R&iacute;os</option>
-                    <option selected>X.De los Lagos</option>
-                    <option selected>XI.Ays&eacute;n</option>
-                    <option selected>XII.Magallanes y la Ant&aacute;rtida</option>
-                    <option selected>XIII.Metropolitana</option>
-                    <option selected>Seleccione...</option>
-                </select>
-            </div>
+        <div class="form-group col-md-6 mx-auto">
+            <label for="inputTel">Tel&eacute;fono</label>
+            <input type="tel" class="form-control" id="inputTel1">
         </div>
-        <div class="form-row">
-            <div class="form-group col-md-6">
-                <label for="exampleInputEmail1">Correo electr&oacute;nico</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
-            <div class="form-group col-md-6">
-                <label for="inputTelefono">Tel&eacute;fono</label>
-                <input type="tel" class="form-control" id="inputTelefono1">
-            </div>
+        <div class="form-group col-md-6 mx-auto">
+            <label for="inputCon">Tipo consulta</label>
+            <select id="inputCon" class="form-control">
+                <option selected>Servicio</option>
+                <option selected>Producto</option>
+                <option selected>Seleccione...</option>
+            </select>
         </div>
-        <div class="form-row">
-            <div class="form-group col-md-6">
-                <label for="exampleInputPassword1">Contrase&ntilde;a</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-            <div class="form-group col-md-6">
-                <label for="exampleInputPassword1">Repetir contrase&ntilde;a</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
+        <div class="form-group col-md-6 mx-auto">
+            <label for="inputArea">Consulta</label>
+            <textarea class="form-control" id="inputArea1" rows="3"></textarea>
+            <br>
+            <button type="submit" class="btn btn-primary">Consultar</button>
         </div>
-        <br>
-        <button type="submit" class="btn btn-primary">Registrar</button>
     </form>
-    <br><br>
 </div>
 
     <!-- Footer con RRSS -->
@@ -121,7 +72,7 @@
       <div class="row">
         <div class="col-md-10 text-right">
           <div class="mr-3">
-            <h5 class="col-md-6 mx-auto">Síguenos en redes sociales</h5>
+            <h5>Síguenos en redes sociales</h5>
           </div>
         </div>
         <div class="col-md-2 text-right">
