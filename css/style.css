@@ -25,13 +25,13 @@
 
 .tamanoimgf{
     width: 100%;
-    height: auto;
+    height: 100vh;
     object-fit: cover;
 }
 
 .con_img{
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -39,8 +39,8 @@
 }
 
 .textoimg{
-    position:fixed;
-    top: 30%;
+    position:absolute;
+    top: 40%;
     left: 5%;
     color: rgb(255, 255, 255);
     font-size: 60px;
@@ -48,6 +48,7 @@
     font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: -3px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 /* Footer estilizado */
@@ -90,18 +91,17 @@
     width: 45%; /* Ajusta el ancho del texto según sea necesario */
 }
 .texto-container {
-    background-color: #592b02; /* Color de fondo café */
-    color: #ffffff; /* Color del texto blanco */
-    padding: 16px; /* Espaciado interno del contenedor */
+    color: #592b02; /* Color del texto blanco */
+    padding-left: 30%; /* Espaciado interno del contenedor */
     border-radius: 4px; /* Bordes redondeados para el contenedor */
 }
 .nosotros-text p {
-    text-align: center;
+    text-align: left;
 }
 
 body{
     margin: 0;
     position: relative;
-    padding-bottom: 4em;
+    padding-bottom: 6em;
     min-height: 100vh;
 }
