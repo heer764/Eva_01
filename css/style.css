@@ -3,6 +3,7 @@
     font-weight: bolder;
 }
 
+<<<<<<< HEAD
 .imagenfull{
     width: 100%;
     height: 60%;
@@ -21,6 +22,13 @@
     border-bottom: 10px solid rgb(255, 255, 255);
     background-color: #ffffff;
     padding: 0em -1;
+=======
+.navbar{
+    border-bottom: 2px solid rgb(196, 196, 196);
+    background-color: #ffffff;
+    padding-top: 0%;
+    padding-bottom: 0%;
+>>>>>>> a2ca2ba391fb9eb78630096411c05469e1018b95
 }
 
 .tamanoimgf{
@@ -39,15 +47,24 @@
 }
 
 .textoimg{
+<<<<<<< HEAD
     position:absolute;
     top: 40%;
     left: 5%;
     color: rgb(255, 255, 255);
     font-size: 48px;
+=======
+    position:fixed;
+    top: 30%;
+    left: 5%;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+>>>>>>> a2ca2ba391fb9eb78630096411c05469e1018b95
     font-weight: bolder;
     font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: -3px;
+<<<<<<< HEAD
     text-shadow: 3px 3px 2px rgb(0, 0, 0);
 }
 
@@ -62,6 +79,12 @@
     min-width: 100vw;
     left: 0;
   }
+=======
+}
+
+/* Footer estilizado */
+
+>>>>>>> a2ca2ba391fb9eb78630096411c05469e1018b95
 
 .pa_reg{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -78,11 +101,16 @@
 .nosotros-container {
     display: flex;
     align-items: center;
+<<<<<<< HEAD
+=======
+    
+>>>>>>> a2ca2ba391fb9eb78630096411c05469e1018b95
     margin-top: 20px; /* Ajusta según sea necesario */
     margin-bottom: 20px; /* Ajusta según sea necesario */
 }
 
 .nosotros-carousel {
+<<<<<<< HEAD
     width: 44%; /* Ajusta el ancho del carrusel según sea necesario */
 }
 
@@ -140,4 +168,57 @@ body{
   .card-text {
     font-size: 14px;
     margin-bottom: 10px; /* Ajusta según sea necesario */
+=======
+    width: 50%; /* Ajusta el ancho del carrusel según sea necesario */
+}
+
+.nosotros-text {
+    width: 45%; /* Ajusta el ancho del texto según sea necesario */
+}
+.texto-container {
+    background-color: #592b02; /* Color de fondo café */
+    color: #ffffff; /* Color del texto blanco */
+    padding: 16px; /* Espaciado interno del contenedor */
+    border-radius: 4px; /* Bordes redondeados para el contenedor */
+}
+.nosotros-text p {
+    text-align: left;
+}
+
+.card-margen-inferior {
+    margin-bottom: 20px;
+  }
+
+
+
+  .body{
+    margin:0;
+    background-color: #ffffff;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+  }
+
+  .footer{
+    background-color: #1b3248;
+    padding: 0.8em 0;
+    
+    text-align: right;
+    margin-top: auto;
+    min-height: 20px;
+    color: #ffffff;
+    width: 100%;
+    position: absolute;
+    
+  }
+  footer2 {
+    background-color: #1b3248;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    min-height: 50px;
+    color: #ffffff;
+    left: 0;
+    margin-top: 20px;
+>>>>>>> a2ca2ba391fb9eb78630096411c05469e1018b95
   }
