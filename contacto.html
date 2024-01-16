@@ -6,6 +6,7 @@
     <title>Denkion</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/validar.js"></script>
 </head>
 <body>
   <!--Barra de navegación-->
@@ -35,42 +36,35 @@
 
 <!--Formulario para contactar-->
 <div class="container mt-auto mx-auto">
-<<<<<<< HEAD
-    <form>
-        <div class="form-group col-md-6 mx-auto">
+  <h2 class="titulo col-md-6 mx-auto">Cont&aacute;ctanos</h2>
+  <form id="ContactoForm">
+      <div class="form-group col-md-6 mx-auto">
+          <label for="inputNombre">Nombre</label>
+          <input type="text" class="form-control" id="inputNombre1">
+      </div>
+      <div class="form-group col-md-6 mx-auto">
+          <label for="inputCorreo">Correo electr&oacute;nico</label>
+          <input type="email" class="form-control" id="inputCorreo1">
+      </div>
+      <div class="form-group col-md-6 mx-auto">
+          <label for="inputTel">Tel&eacute;fono</label>
+          <input type="tel" class="form-control" id="inputTel1">
+      </div>
+      <div class="form-group col-md-6 mx-auto">
+          <label for="inputCon">Tipo consulta</label>
+          <select id="inputCon" class="form-control">
+              <option selected>Servicio</option>
+              <option selected>Producto</option>
+              <option selected>Seleccione...</option>
+          </select>
+      </div>
+      <div class="form-group col-md-6 mx-auto">
+          <label for="inputArea">Consulta</label>
+          <textarea class="form-control" id="inputArea1" rows="3"></textarea>
           <br>
-            <h2 class="titulo col-md-6">Cont&aacute;ctanos</h2>
-=======
-    <h2 class="titulo col-md-6 mx-auto">Cont&aacute;ctanos</h2>
-    <form>
-        <div class="form-group col-md-6 mx-auto">
->>>>>>> a2ca2ba391fb9eb78630096411c05469e1018b95
-            <label for="inputNombre">Nombre</label>
-            <input type="text" class="form-control" id="inputNombre1">
-        </div>
-        <div class="form-group col-md-6 mx-auto">
-            <label for="inputCorreo">Correo electr&oacute;nico</label>
-            <input type="email" class="form-control" id="inputCorreo1">
-        </div>
-        <div class="form-group col-md-6 mx-auto">
-            <label for="inputTel">Tel&eacute;fono</label>
-            <input type="tel" class="form-control" id="inputTel1">
-        </div>
-        <div class="form-group col-md-6 mx-auto">
-            <label for="inputCon">Tipo consulta</label>
-            <select id="inputCon" class="form-control">
-                <option selected>Servicio</option>
-                <option selected>Producto</option>
-                <option selected>Seleccione...</option>
-            </select>
-        </div>
-        <div class="form-group col-md-6 mx-auto">
-            <label for="inputArea">Consulta</label>
-            <textarea class="form-control" id="inputArea1" rows="3"></textarea>
-            <br>
-            <button type="submit" class="btn btn-primary">Consultar</button>
-        </div>
-    </form>
+          <button type="submit" class="btn btn-primary" onclick="contacto();">Consultar</button>
+      </div>
+  </form>
 </div>
 
     <!-- Footer con RRSS -->
